@@ -260,3 +260,57 @@
   new PureCounter();
 
 })()
+
+
+
+// // Infinity Counter
+document.addEventListener("DOMContentLoaded", function () {
+  function incrementCounter() {
+    var counterElement = document.getElementById("counter");
+    var counter = parseInt(counterElement.textContent);
+
+    if (counter < 50) {
+      counterElement.textContent = counter + 1;
+      setTimeout(incrementCounter, 50); // Increment every 1 second (1000 milliseconds)
+    } else {
+      // Display the infinity symbol when the count reaches 50
+      counterElement.textContent = "∞";
+      // counterElement.style.display = "none";
+      // counterElement.style.display = "inline";
+
+    }
+  }
+
+  // incrementCounter();
+
+  // Function to handle the intersection of the section
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            incrementCounter();
+        } else {
+            ;
+        }
+    });
+  }
+
+  // Options for the Intersection Observer
+  const options = {
+    root: null, // Use the viewport as the root
+    rootMargin: "0px", // No margin
+    threshold: 0.5, // Trigger when at least 50% of the element is visible
+  };
+
+  // Create an Intersection Observer
+  const observer = new IntersectionObserver(handleIntersection, options);
+
+  // Select the section you want to observe
+  const mySection = document.getElementById("facts");
+
+  // Start observing the section
+  observer.observe(mySection);
+});
+
+
+
+
