@@ -18,7 +18,7 @@ If you want to try make your own, it's very easy!
 
 - Finally, modify the files and customize the website to make it your own, and wen commiting the changes, GitHub will be automatticaly deplying it and updating it. 
 
-Take in mind that in GitHub only static websited can be hosted, so no server operations nor backend scripts are allowed, mainly use HTML/CSS/JS and you'll be fine. Here is more info about [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
+Take in mind that in GitHub only static websites can be hosted, so no server operations nor backend scripts are allowed, mainly use HTML/CSS/JS and you'll be fine. Here is more info about [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
 
 
 <br>
