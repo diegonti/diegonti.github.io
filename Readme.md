@@ -1,6 +1,6 @@
 # Diego Ontiveros - Personal Website
 
-Here is found the repo that hosts my personal website. I've used a template designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> but I added my personal touches and sections. I'ts been a journey since I don't know much about web development, but this project has helped me to deepen my understansing into HTML/CSS/JS and bootstrap frameworks.
+Here is found the repo that hosts my personal website. I've used a template designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> but I added my personal touches and sections. It's been a journey since I don't know much about web development, but this project has helped me to deepen my understansing into HTML/CSS/JS and bootstrap frameworks.
 
 <br>
 <p align="center">
