@@ -717,7 +717,7 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.services .icon i{
   color: #fff;
   font-size: 24px;
   line-height: 0;
@@ -727,7 +727,7 @@ section {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.services .icon-box:hover .icon i{
   color: #149ddd;
 }
 
@@ -750,6 +750,7 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  text-align:justify;
 }
 
 /*--------------------------------------------------------------
